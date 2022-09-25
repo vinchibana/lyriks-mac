@@ -22,16 +22,7 @@
   "license": "MIT",
   "author": {
     "name": "Electron React Boilerplate Maintainers",
-    "email": "electronreactboilerplate@gmail.com",
-    "url": "https://electron-react-boilerplate.js.org"
   },
-  "contributors": [
-    {
-      "name": "Amila Welihinda",
-      "email": "amilajack@gmail.com",
-      "url": "https://github.com/amilajack"
-    }
-  ],
   "main": "./src/main/main.ts",
   "scripts": {
     "build": "concurrently \"npm run build:main\" \"npm run build:renderer\"",
@@ -193,8 +184,8 @@
     "webpack-merge": "^5.8.0"
   },
   "build": {
-    "productName": "ElectronReact",
-    "appId": "org.erb.ElectronReact",
+    "productName": "Lyriks",
+    "appId": "org.vinchibana.lyriks",
     "asar": true,
     "asarUnpack": "**\\*.{node,dll}",
     "files": [
@@ -207,7 +198,6 @@
       "target": {
         "target": "default",
         "arch": [
-          "arm64",
           "x64"
         ]
       },
